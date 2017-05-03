@@ -1,0 +1,94 @@
+#circulo {
+	border-radius: 50%;
+	height: 500px;
+	width: 500px;
+	border: 2px solid #000000;
+	background-color: #ffff00;
+}
+
+div.olhos {
+	position: relative;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	border: 2px solid #000000;
+	background-color: #000000;	
+}
+
+#esquerdo {
+	float: left;
+	top: 130px;
+	left: 100px;
+}
+
+#direito {
+	float: right;
+	top: 130px;
+	right: 100px;
+}
+
+#boca {
+	visibility: visible;
+	float: left;
+	top: 350px;
+	left: 110px;
+	position: relative;
+	height: 10px;
+	width: 180px;
+	background-color: #000000;
+}
+
+#boca::before, #boca::after {
+	visibility: visible;
+	display: block;
+  	position: absolute;
+  	width: 0;
+  	height: 0;
+  	content: "";
+  	top: 0px;
+
+  	border-style: solid;
+  	border-color: transparent;
+}
+
+#boca::after {
+	border-width: 10px 15px 0 0;
+ 	border-top-color: #000;
+  	right: -15px;
+}
+
+#boca::before {
+  left: -15px;
+  border-width: 0 15px 10px 0;
+  border-right-color: #000;
+}
+
+#bocaAberta {
+	visibility: hidden;
+	clear: both;
+	float: left;
+	top: 200px;
+	left: 140px;
+	border-radius: 100% / 70%;
+	position: relative;
+	height: 180px;
+	width: 210px;
+	background-color: #FF0000;	
+	border: 5px solid #000000;
+}
+
+#balao {
+	border-radius: 30px;
+	visibility: hidden;
+	clear: both;
+	float: left;
+	bottom: 150px;
+	left: 520px;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	background-color: #FFFFFF;	
+	border: 5px solid #000000;
+	text-align: center;	
+}
+

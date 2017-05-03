@@ -1,0 +1,38 @@
+body {
+	background: #6E6E6E; 
+}
+div {
+	margin: 0 auto;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+}
+#site {
+	background-color: #0007D6;
+	width:  800px;
+	padding-bottom: 10px;
+}
+.secao {	
+	background-color:  #01004F; 
+	margin-bottom: 10px;
+}
+
+.secao div{	
+	background-color:  #C8C8C8; 
+	margin-bottom: 5px;
+}
+
+div.noticia {
+	background-color: #939393;
+}
+
+#footer {
+	padding-bottom: 10px;
+}
+
+table, td {
+	border: 2px solid grey;
+}
+
+h3 {
+	color: #fff;
+}

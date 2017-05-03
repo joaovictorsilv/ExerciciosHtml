@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 7</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script>
+		function acao (){
+			document.getElementById('boca').style.visibility='hidden';
+			document.getElementById('bocaAberta').style.visibility='visible';
+		}
+		function acao2 () {
+			document.getElementById('balao').style.visibility='visible';
+		}
+	</script>
+</head>
+<body>
+ 	<div id="circulo" onmouseover="acao()" onclick="acao2()">
+		<div id="esquerdo" class="olhos"></div>
+		<div id="direito" class="olhos"></div>
+		<div id="boca"></div>
+		<div id="bocaAberta"></div>
+		<div id="balao"><h3>Que Foda!</h3></div>
+	</div
+</body>
+</html>

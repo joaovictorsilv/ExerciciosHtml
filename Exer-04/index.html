@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 04</title>
+</head>
+<body>
+	<form>
+		<h1>Fomulário</h1>
+		<label for="nome">Nome: </label>
+		<input type="text" id="nome" placeholder="nome" /><br/>
+		<label for="email">Email: </label>
+		<input type="email" id="email" placeholder="email"/><br/>
+		<label for="senha">Senha: </label>
+		<input type="password" id="senha" placeholder="senha" /><br/><br/>
+		<label for="sexo">Sexo: </label><br/>
+		<input type="radio" name="sexo" value="masculino" id="masculino"/>
+		<label for="masculino">Masculino</label></br>
+		<input type="radio" name="sexo" value="feminino" id="feminino"/>
+		<label for="feminino">Feminino</label><br/></br>
+		<label for="tecnologias">Tecnologias</label><br/>
+		<input type="checkbox" name="tecnologias" id="html"/>
+		<label for="html">HTMl</label><br/>
+		<input type="checkbox" name="tecnologias" id="css"/>
+		<label for="css">CSS</label><br/>
+		<input type="checkbox" name="tecnologias" id="java"/>
+		<label for="java">Java</label><br/>
+		<input type="checkbox" name="tecnologias" id="php"/>
+		<label for="php">PHP</label><br/></br/>
+		<label for="descricao">Descrição Pessoal</label><br/>
+		<textarea name="descricao" id="iDescricao" cols="30" rows="5" placeholder="Digite aqui..."></textarea> <br/><br/>
+		<label for="opcoes">Opções: </label>
+		<select name="opcoes" id="sOpcoes">
+			<option value="opcao1">Opção 1</option>
+		</select><br/><br/>
+		<input type="submit" value="Enviar" method="POST" /><br/>
+		<input type="button" value="Limpar">
+	</form>
+</body>
+</html>
